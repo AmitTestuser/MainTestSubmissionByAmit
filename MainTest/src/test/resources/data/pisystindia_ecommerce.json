@@ -1,0 +1,48 @@
+{
+
+	"valid":{
+		"user_Name": "admin@gmail.com",
+		"user_Pass": "123456",
+		"category_Name": "Grossary",
+		"category_Image": "C:\\Users\\AN69831\\Downloads\\image.jfif"
+		
+	},
+	"Invalid":{
+		"user_Name": "admin@gmail.com",
+		"user_Pass": "123456",
+		"category_Name": "%$gros1 2",
+		"category_Image": "dir"
+	},
+
+	"SpecialCharacter":{
+		"user_Name": "admin@gmail.com",
+		"user_Pass": "123456",
+		"category_Name": "))(*&^%$#@!",
+		"category_Image": "C:\\Users\\AN69831\\Downloads\\image.jfif"	
+		},
+	"Dublicate":{
+		"user_Name": "admin@gmail.com",
+		"user_Pass": "123456",
+		"category_Name": "Grossary",
+		"category_Image": "C:\\Users\\AN69831\\Downloads\\image.jfif"
+	},
+	"BlankSpace":{
+		"user_Name": "admin@gmail.com",
+		"user_Pass": "123456",
+		"category_Name": "",
+		"category_Image": "C:\\Users\\AN69831\\Downloads\\image.jfif"
+	},
+	"DoubleSpace":{
+		"user_Name": "admin@gmail.com",
+		"user_Pass": "123456",
+		"category_Name": "  ",
+		"category_Image": "C:\\Users\\AN69831\\Downloads\\image.jfif"
+	},
+	"MaxChar":{
+		"user_Name": "admin@gmail.com",
+		"user_Pass": "123456",
+		"category_Name": "fsdhfkjasdhfkjsahdkjfhlkasjdhfkjsahdlkfjhskdjhflkajshdlkjfhsekjhfkljashdkjhflkjashdlkjfhasldkjhflksjadhflkjhasdlkjfhklsjdhflkjhasdljkfhlksjdhfkljsdhlkfjhaskdjhflkjasdhkfjsdjkfbasdvjkbsdkjvblaksjdbvlkjasdblvkjbasdlkjbkjweibkdsjbaflkjbsdlfkjsad",
+		"category_Image": "C:\\Users\\AN69831\\Downloads\\image.jfif"
+	}
+	
+}

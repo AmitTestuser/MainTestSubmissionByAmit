@@ -1,0 +1,43 @@
+{
+	"valid":{
+		"user_Name": "mainhub@gmail.com",
+		"user_Pass": "123456",
+		"coupon_name": "Bata"
+	},
+
+	"Invalid":{
+		"user_Name": "mainhub@gmail.com",
+		"user_Pass": "123456",
+		"coupon_name": "123456"
+	},
+
+	"SpecialCharacter":{
+		"user_Name": "mainhub@gmail.com",
+		"user_Pass": "123456",
+		"coupon_name": "&*^%$#@()!"
+	},
+	"Dublicate":{
+		"user_Name": "mainhub@gmail.com",
+		"user_Pass": "123456",
+		"coupon_name": "Bata"
+	},
+	"BlankSpace":{
+		"user_Name": "mainhub@gmail.com",
+		"user_Pass": "123456",
+		"coupon_name": ""
+	},
+	"DoubleSpace":{
+		"user_Name": "mainhub@gmail.com",
+		"user_Pass": "123456",
+		"coupon_name": "  "
+	},
+	"MaxChar":{
+		"user_Name": "mainhub@gmail.com",
+		"user_Pass": "123456",
+		"coupon_name": "sdfasdkfjhasdkfjhaslkdjhfklasjdhfkjshadkljfhaslkjdhfuksealkfjsnekljfhaksjdfkjasdhkfjhasdlkjfhaksjdlhfkljhadslkfjhslakdjhfkjasdhlfkjhasdlkufhelkjaflkjsehkfjlahsekljfhlkjashdflkjhasdlkjfhlkajsdhflkjhadslkfjhasldkjhflkseunaclkjsehflkjdhasflkjasldkjhfkljasdhflkjshdkfjhsaldkjfhlkjasdhflkjhasdlkjfhlaksdjhflkjsaehjkfehkjfhasdlkjhflkajshdflkjshdlkjfhasdlkjfhlkajsdhflkjsdhflkjashdlfkjhsdlkjfhaslkdjhflkajshdflkjahsdlkjfhalsdkjhflkasjdhflkjasdhflkjhasdkjhfkjasdlkjfhskajdfhjkasdhflkjasdhlfkjahsdlkfjhaklsdjfhalkjsdfhlkajsdhfkjlasdhflkjsadf"
+	}
+	
+	
+	
+
+}

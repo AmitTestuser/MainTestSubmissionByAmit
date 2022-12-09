@@ -1,0 +1,55 @@
+create database db1;
+use db1;
+
+create table employee(id int, name varchar(100), designation varchar(100), salary int);
+
+insert into employee values(1, "Amit", "Software developer",20000000);
+insert into employee values(2, "Dev", "Software Tester",2300000);
+insert into employee values(3, "Shubh", "Software developer",400000);
+insert into employee values(4, "Abhi", "Software developer",1421000);
+insert into employee values(5, "Saurabh", "Software developer",1310000);
+
+
+Select * from employee;
+
+update employee set salary = 2300000 where name = "Abhi";
+Select * from employee;
+
+delete from employee where id = 5;
+Select * from employee;
+
+select id from employee where id >=2 and id <=5;
+
+select * from employee order by salary asc;
+
+-----------------------------------output-------------------------------------------
+id	name	designation	salary
+1	Amit	Software developer	20000000
+2	Dev	Software Tester	2300000
+3	Shubh	Software developer	400000
+4	Abhi	Software developer	1421000
+5	Saurabh	Software developer	1310000
+
+id	name	designation	salary
+1	Amit	Software developer	20000000
+2	Dev	Software Tester	2300000
+3	Shubh	Software developer	400000
+4	Abhi	Software developer	2300000
+5	Saurabh	Software developer	1310000
+
+id	name	designation	salary
+1	Amit	Software developer	20000000
+2	Dev	Software Tester	2300000
+3	Shubh	Software developer	400000
+4	Abhi	Software developer	2300000
+
+id
+2
+3
+4
+
+id	name	designation	salary
+3	Shubh	Software developer	400000
+2	Dev	Software Tester	2300000
+4	Abhi	Software developer	2300000
+1	Amit	Software developer	20000000

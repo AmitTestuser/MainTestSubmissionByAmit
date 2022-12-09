@@ -1,0 +1,16 @@
+{
+
+	"valid":{
+		"user_name":"avez.kazi@pisystindia.com",
+		"user_password":"Avez@123456"
+	},
+	
+	"Invalid":{
+	
+		"user_name":"avez.kazwi@pisystindia.com",
+		"user_password":"Avez@1w23456"
+	}
+	
+	
+
+}

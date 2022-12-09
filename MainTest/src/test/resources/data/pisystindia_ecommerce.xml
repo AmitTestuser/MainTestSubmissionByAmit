@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="pisystindia_ecommerce" verbose="1">
+	<test name="TestCase_pisystindia_ecommerce">
+	<parameter name="browser" value="chrome"/>
+	<parameter name = "url" value="https://products.pisystindia.com/Ecommerce/admin/login" />
+	<classes>
+		<class name ="TestCase.TestCase_pisystindia_ecommerce"></class>
+		
+	</classes>
+	</test>
+
+
+</suite>
